@@ -1,0 +1,112 @@
+# Von MI6-2 angelegt. Regel: Quelltext ja, Erzeugtes und Grosses nein.
+
+# Umgebungen
+.venv/
+venv/
+env/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Gebautes
+build/
+dist/
+out/
+target/
+bin/
+obj/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# Unreal / Unity / Godot - Erzeugtes, oft viele GB
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+Library/
+Temp/
+Logs/
+.import/
+.godot/
+
+# Visual Studio / C++ - Cache und Buildausgabe (oft hunderte MB)
+.vs/
+x64/
+Win32/
+Debug/
+Release/
+*.ipch
+*.VC.db
+*.VC.opendb
+
+# Trainingsdaten und Laeufe - Daten, kein Quelltext
+dataset/
+datasets/
+sort_runs/
+runs/
+wandb/
+checkpoints/
+.pytest_cache/
+.mypy_cache/
+.idea/
+
+# Grosse Daten und Modelle
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.bin
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.gz
+*.iso
+*.img
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+*.mp3
+*.flac
+*.parquet
+*.sqlite
+*.db
+# Mitschnitte (wardriving) und grosse Bild-/3D-Formate
+*.pcap
+*.pcapng
+*.cap
+*.psd
+*.blend1
+*.fbx
+*.uasset
+*.umap
+
+# Geheimnisse
+*.key
+*.pem
+.env
+geheim.json
+apikeys/
+
+# Windows
+Thumbs.db
+desktop.ini
+nul
+
+# Projekt
+data/
+index/
+Modelle/
+werkbank/
+T4Bv1_ref/
